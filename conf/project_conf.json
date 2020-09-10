@@ -1,0 +1,13 @@
+{
+  "model": "rfregressor",
+  "time_features": ["time_period_start", "time_period_end", "time_open", "time_close"],
+  "lookback_features": ["price_open",
+                       "price_high",
+                       "price_low",
+                       "price_close",
+                       "volume_traded",
+                       "trades_count"],
+  "file_path": "bitcoin.csv",
+  "time_window": 60,
+  "target_feature": "price_high"
+}
