@@ -14,11 +14,11 @@ Endpoint “/” will display “API is up” if API is up.
 
 <b>The model is up and running. How do we know if it's being used?</b>
 
-Currently the logs will indicate when a request has been made.
+Currently the Heroku logs will indicate when a request has been made.
 
 <b>How often does it error out? How many 5xx? How many 4xx?</b>
 
-In the first hour of local run, no errors were reported when running the endpoints.
+In the first hour of local & Heroku run, no errors were reported when running the endpoints.
 
 <b>How accurate is the model? We can see how accurate the training and validation sets are, but can we include an endpoint to measure how accurate it was in the last 60 seconds?</b>
 
