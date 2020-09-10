@@ -6,13 +6,13 @@ App deployed with Heroku, Docker, Flask, Python: [https://penn-challenge.herokua
 
 ```bash
 ├── ml-engineering-challenge
-│   ├── `analysis` - <i>contains EDA notebooks</i>
+│   ├── `analysis` - contains EDA notebooks
 │   │   ├── bitcoin-predictor.ipynb
 │   │   ├── lstm.ipynb
 │   │   ├── randomforest.ipynb
 │   │   ├── xgboost.ipynb
 │   ├── `conf`
-│   │   ├── project_conf.json - <i>contains model parameters, which can be configured by user</i>
+│   │   ├── project_conf.json - contains model parameters, which can be configured by user
 │   │   ├── conf_loader.py
 │   ├── data
 │   │   ├── data_lookback.py
@@ -23,14 +23,14 @@ App deployed with Heroku, Docker, Flask, Python: [https://penn-challenge.herokua
 │   │   ├── lstm.py
 │   │   ├── neural_net.py
 │   │   ├── rfregressor.py
-│   │   ├── model.pkl - <i>last saved model, based off bitcoin.csv</i>
+│   │   ├── model.pkl - last saved model, based off bitcoin.csv
 │   └── tests
 │   │   ├── test_conf.py
 │   │   ├── test_model_drift.py
 │   │   ├── test_preprocessing_train.py
 │   │   ├── test_train_api.py
 ├── Dockerfile
-├── `server.py` - <i>contains endpoints such as `/predict`, `/train`, and calling unit tests</i>
+├── `server.py` - contains endpoints such as `/predict`, `/train`, and calling unit tests
 ├── train.py
 ├── utils.py
 ```
