@@ -1,5 +1,4 @@
 # btc_prediction
-Penn Challenge BTC prediction
 
 <b>How do we write good tests (unit, integration) for this machine learning service?</b>
 
